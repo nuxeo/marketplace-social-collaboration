@@ -1,16 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
     <version>5.9.6-SNAPSHOT</version>
-    <relativePath>../../../pom.xml</relativePath>
+    <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>nuxeo-social-collaboration-ftest</artifactId>
-  <name>Nuxeo Social Collaboration Functional Tests</name>
-  <description>Nuxeo Social Collaboration Functional Tests</description>
+  <artifactId>nuxeo-social-collaboration-selenium-tests</artifactId>
+  <name>Nuxeo Social Collaboration Selenium Tests</name>
+  <description>Selenium functional tests on Nuxeo Social Collaboration module</description>
   <packaging>pom</packaging>
 
   <build>
