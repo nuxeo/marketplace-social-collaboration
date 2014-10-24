@@ -20,11 +20,13 @@
   <production-state>production_ready</production-state>
   <supported>true</supported>
   <platforms>
-    <platform>cap-@VERSION@</platform>
+    <platform>cap-@DISTRIB_VERSION@</platform>
+    <platform>cap-@DISTRIB_VERSION@-HF*</platform>
   </platforms>
   <dependencies>
     <package>nuxeo-opensocial</package>
   </dependencies>
   <license>LGPL 2.1</license>
   <license-url>http://www.gnu.org/licenses/lgpl-2.1.html</license-url>
+  <visibility>PUBLIC</visibility>
 </package>
