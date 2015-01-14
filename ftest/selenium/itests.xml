@@ -23,6 +23,10 @@
     <copy todir="${out.dir}">
       <artifact:resolveFile key="org.nuxeo.marketplace.social.collaboration:marketplace::zip" />
     </copy>
+    <antcall target="set-conf">
+      <param name="name" value="org.nuxeo.connect.url" />
+      <param name="value" value="https://connect-test.nuxeo.com/nuxeo/site/" />
+    </antcall>
   </target>
 
   <target name="run-selenium-tests" depends="run-selenium" />
