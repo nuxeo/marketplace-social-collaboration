@@ -1,0 +1,1 @@
+The `marketplace-social-collaboration` MP has beed deprecated since 6.0 and removed since 7.3.
